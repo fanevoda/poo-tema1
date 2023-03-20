@@ -4,10 +4,11 @@ using namespace std;
 
 class BonDeMasa
 {
-public:
     int id;
     string emitent;
     double valoare;
+    
+    public:
 
     BonDeMasa()
     {
@@ -41,11 +42,12 @@ public:
 
 class Angajat
 {
-public:
     int id;
     string nume;
     int nrBonuri;
     BonDeMasa bonuri[100];
+    
+    public:
 
     Angajat(Angajat& angajat)
     {
